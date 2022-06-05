@@ -1,0 +1,215 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+body {
+  min-width: 375px;
+  margin: 0px auto;
+  font-family: "Roboto";
+  color: black;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+p {
+  display: flex;
+  align-items: center;
+}
+.mx-w {
+  max-width: 89.8%;
+  margin: 0px auto;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8%;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.bigbox {
+  max-width: 100%;
+  height: 486px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 17%;
+}
+
+.textcont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.textcont h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.textcont p {
+  margin-top: 3%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.bigbox button {
+  width: 100%;
+  padding: 11px 22px 11px 22px;
+  border-radius: 8px;
+  background-color: rgba(50, 88, 251, 1);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  font-style: Bold;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:focus,
+button:hover {
+  background-color: rgb(0, 4, 255);
+}
+
+.endbox {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.endbox a {
+  color: blue;
+}
+
+.login {
+  width: 100%;
+  height: 230px;
+}
+
+.name {
+  height: 56px;
+  border: 1px solid rgba(145, 158, 171, 0.3);
+  border-radius: 8px;
+}
+
+.form {
+  width: 100%;
+  height: 230px;
+  font-size: 14px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.form-label {
+  position: absolute;
+  left: 14px;
+  z-index: -1;
+  color: rgba(145, 158, 171, 1);
+  transition: 0.3s;
+}
+
+.form-input {
+  width: 100%;
+  padding: 16px 14px 16px 14px;
+  border: 1px solid rgba(145, 158, 171, 0.3);
+  border-radius: 8px;
+  background-color: transparent;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-input:focus {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.form-input:focus ~ .form-label,
+.form-input:not(:placeholder-shown) ~ .form-label {
+  top: -17px;
+  font-size: 12px;
+}
+
+.table {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 70px;
+  font-weight: 400;
+  padding: 13px 12px 13px 16px;
+  background: rgba(50, 88, 251, 0.2);
+  border-radius: 8px;
+}
+
+.table text {
+  width: 81%;
+  height: 44px;
+}
+.table p {
+  font-size: 14px;
+}
+.click-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 8px;
+  width: 335px;
+  height: 40px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.click-box a {
+  color: #3258fb;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+  padding-left: rpx;
+}
+
+.form-check-input {
+  width: 18px;
+  height: 18px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.form-check-label {
+  margin-left: 11px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(51, 51, 51, 1);
+}
